@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Workspace - ArtSync</title>
+  <link rel="stylesheet" href="myworkspace.css" />
+  <script defer src="myworkspace.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">ArtSync</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="myworkspace.html" class="active">My Workspace</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h2>Welcome to Your Workspace</h2>
+      <p>Manage your creative projects, collaborate, and keep track of everything here.</p>
+
+      <div class="workspace-grid">
+        <div class="card">
+          <h3><i class="fas fa-folder-open"></i> Project Files</h3>
+          <p>Access shared files and upload new assets.</p>
+          <button class="btn" onclick="window.location.href='library.html'">Go to Library</button>
+        </div>
+        <div class="card">
+            <h3><i class="fas fa-comments"></i> Portofolio</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In magnam vero ad.</p>
+            <button class="btn" onclick="window.location.href='project.html'">Open Project</button>
+          </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <p><i class="fas fa-envelope"></i> infoartsync@gomail.com</p>
+      </div>
+      <div class="footer-social">
+        <h3>Social</h3>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-discord"></i></a>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2025 ArtSync. All rights reserved.</p>
+  </footer>
+</body>
+</html>
